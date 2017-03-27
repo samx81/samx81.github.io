@@ -1,0 +1,48 @@
+body{
+	background: linear-gradient(to left, #283048 , #859398);
+	font-family:微軟正黑體;
+}
+.header{
+	margin-top:10px;
+  height:100px;
+	background:white;
+	border-radius:10px;
+	text-align:center;
+	font-size:4rem;
+	line-height:100px;
+	transition:font-size 1s;
+	transition-timing-function: ease;
+	display:flex;
+	justify-content:center;
+}
+.header:hover{
+	font-size:5rem;
+}
+.day{
+	padding-right:3rem;
+}
+.contant{
+	margin-top:10px;
+	display:flex;
+	background:black;
+	border-radius:10px;
+	justify-content:space-around;
+}
+.head{
+	padding:15px;
+	padding-bottom:25px;
+}
+.rightArea{
+	width:70%;
+	margin:auto;
+	text-align:center;
+	color:white;
+}
+.GG{
+	position:relative;
+	top:20px;
+	font-size:3rem;
+	font-family:Lucida Grande;
+	font-weight:bold;
+	text-shadow:1px 1px 10px black;
+}
