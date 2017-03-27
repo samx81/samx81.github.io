@@ -46,6 +46,9 @@ body{
 	font-weight:bold;
 	text-shadow:1px 1px 10px black;
 }
-#codepen{
-	width:200px;
+.glyphicon{
+	vertical-align: middle;
+	margin-top:24px;
+	margin-right:10px;
+	
 }
