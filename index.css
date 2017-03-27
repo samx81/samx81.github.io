@@ -33,7 +33,7 @@ body{
 	padding-bottom:25px;
 }
 .rightArea{
-	width:70%;
+	width:50%;
 	margin:auto;
 	text-align:center;
 	color:white;
@@ -50,5 +50,12 @@ body{
 	vertical-align: middle;
 	margin-top:24px;
 	margin-right:10px;
-	
+}
+.me{
+	color:white;
+	margin:auto;
+	padding:40px;
+	font-size:2em;
+	font-family:sourcehansans-tc,微軟正黑體;
+	border-radius:5px;
 }
