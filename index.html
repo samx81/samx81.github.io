@@ -6,12 +6,18 @@
 </head>
 <body>
 	<script>
-		＄(document).ready(function(){
+		$(document).ready(function(){
 			$(".head").click(function(){
 				$(".content").fadeOut();
 			});
 			$(".header").click(function(){
 				$(".content").fadeIn();
+			});
+			$("#data1").hover(function(){
+				$("#data1").text("學號:404261189");
+			});
+			$("#data2").hover(function(){
+				$("#data2").text("姓名:曹又升");
 			});
 		});
 	    
@@ -28,8 +34,8 @@
 			</div>
 			<div class="notHead">
 				<div class="me">
-					<p>學號:404261189</p>
-					<p>姓名:曹又升</p>
+					<p id="data1">CENSORED</p>
+					<p id="data2">CENSORED</p>
 				</div>
 				<div class="rightArea ">
 					<a href="https://codepen.io/samx81" class="btn btn-warning btn-lg btn-block pull-right">
