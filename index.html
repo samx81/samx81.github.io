@@ -7,7 +7,12 @@
 <body>
 	<script>
 		＄(document).ready(function(){
-			$(".container").fadeIn();
+			$(".head").click(function(){
+				$(".content").fadeOut();
+			});
+			$(".header").click(function(){
+				$(".content").fadeIn();
+			});
 		});
 	    
 	</script>
