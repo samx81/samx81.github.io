@@ -1,12 +1,4 @@
 
-<head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-      <link rel="stylesheet" type="text/css" href="index.css">
-	<script src="//s3-ap-northeast-1.amazonaws.com/justfont-user-script/jf-34582.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-</head>
-<body>
-<div>
 <?php
 $serverName = "mssql5.gear.host"; //serverName\instanceName
 $connectionInfo = array( "Database"=>"shorturls", "UID"=>"shorturls", "PWD"=>"Gf7UX!qRqzb!");
@@ -29,5 +21,3 @@ echo "<h2>" . $txt1 . "</h2>";
 echo "Study PHP at" . $txt2 . "<br>";
 echo $x + $y;
 ?>
-	</div>
-</body>
